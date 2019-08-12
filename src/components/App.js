@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Cohort from './Cohort';
 import people from '../data/yearbook-data.js';
 import './App.css';
+// import { parenthesizedExpression } from '@babel/types';
 
 class App extends Component {
   constructor() {
@@ -15,9 +16,11 @@ class App extends Component {
     return (
       <div className="App">
       <header className="App-header">
-      <h1>Turing Yearbook</h1>
+        <h1>Turing Yearbook</h1>
       </header>
-        YOUR CODE GOES HERE
+      <main>
+        <Cohort people={this.state.staff}/>
+      </main>
       </div>
     );
   }

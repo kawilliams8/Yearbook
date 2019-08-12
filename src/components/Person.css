@@ -1,0 +1,11 @@
+.Person {
+  background-color: white;
+  margin: 10px;
+  width: 400px;
+}
+
+.photo {
+  height: 300px;
+  object-fit: contain;
+  width: 300px;
+}
