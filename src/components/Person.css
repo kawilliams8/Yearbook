@@ -1,11 +1,24 @@
 .Person {
   background-color: white;
-  margin: 10px;
-  width: 400px;
+  border-radius: 6px;
+  height: 500px;
+  margin: 12px;
+  width: 350px;
 }
 
 .photo {
-  height: 300px;
-  object-fit: contain;
-  width: 300px;
+  border-radius: 6px;
+  height: 250px;
+  object-fit: cover;
+  width: 250px;
+}
+
+.quote {
+  color: red;
+  font-style: italic;
+  padding: 0 30px;
+}
+
+.superlative {
+  font-size: 12px;
 }
