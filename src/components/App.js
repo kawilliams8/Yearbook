@@ -12,6 +12,25 @@ class App extends Component {
       staff: people.staff,
       students: people.students
     }
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange(event) {
+    let name = event.target.name;
+    let value = event.target.value;
+    let old = [...this.state.students]
+    old.push({[name]: value})
+    console.log(old)
+
+    this.setState({
+      [this.state.students] : old
+    })
+  }
+
+  handleSubmit(event) {
+    event.preventDefault();
+    console.log('handleSubmit', event.target)
   }
 
   render() {
@@ -24,7 +43,7 @@ class App extends Component {
         <h2>Turing Staff</h2>
         <Cohort position="staff" people={this.state.staff}/>
         <h2>Turing Students</h2>
-        <AddPerson />
+        <AddPerson onChange={this.handleChange} onSubmit={this.handleSubmit}/>
         <Cohort position="students" people={this.state.students} />
       </main>
       </div>

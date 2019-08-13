@@ -1,19 +1,20 @@
 import React from 'react';
-import Cohort from './Cohort';
-import Person from './Person';
 import './AddPerson.css';
 
-const AddPerson = () => {
+const AddPerson = (props) => {
+  
   return (
     <div className="AddPerson">
       <h3 className="formTitle">Add a New Student</h3>
-      <input type="text" className="nameInput" placeholder="Student name"/>
-      <br/>
-      <input type="text" className="quoteInput" placeholder="Student quote"/>
-      <br/>
-      <input type="text" className="superlativeInput" placeholder="Student superlative"/>
-      <br/>
-      <button>Submit</button>
+      <form onSubmit={props.onSubmit}>
+        <input type="text" name="name" className="nameInput" placeholder="Name" onChange={props.onChange}/>
+        <br/>
+        <input type="text" name="quote" className="quoteInput" placeholder="Quote" onChange={props.onChange}/>
+        <br/>
+        <input type="text" name="superlative" className="superlativeInput" placeholder="Superlative" onChange={props.onChange}/>
+        <br/>
+        <button>Submit</button>
+      </form>
     </div>
   )
 }
