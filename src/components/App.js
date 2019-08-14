@@ -3,7 +3,6 @@ import Cohort from './Cohort';
 import AddPerson from './AddPerson';
 import people from '../data/yearbook-data.js';
 import './App.css';
-// import { parenthesizedExpression } from '@babel/types';
 
 class App extends Component {
   constructor() {
