@@ -6,30 +6,25 @@ import './App.css';
 
 class App extends Component {
   constructor() {
-    super();
+    super()
     this.state = {
       staff: people.staff,
       students: people.students
     }
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    this.removeStudent = this.removeStudent.bind(this);
   }
 
-  handleChange(event) {
-    let name = event.target.name;
-    let value = event.target.value;
-    let old = [...this.state.students]
-    old.push({[name]: value})
-    console.log(old)
-
+  addStudent = (student) => {
     this.setState({
-      [this.state.students] : old
+      students: [...this.state.students, student]
     })
   }
 
-  handleSubmit(event) {
-    event.preventDefault();
-    console.log('handleSubmit', event.target)
+  removeStudent(id){
+    const filteredStudents = this.state.students.filter(student => student.id !== id)
+    this.setState({
+      students: filteredStudents
+    })
   }
 
   render() {
@@ -42,8 +37,8 @@ class App extends Component {
         <h2>Turing Staff</h2>
         <Cohort position="staff" people={this.state.staff}/>
         <h2>Turing Students</h2>
-        <AddPerson onChange={this.handleChange} onSubmit={this.handleSubmit}/>
-        <Cohort position="students" people={this.state.students} />
+        <AddPerson addStudent={this.addStudent}/>
+        <Cohort position="students" people={this.state.students} removeStudent={this.removeStudent}/>
       </main>
       </div>
     );

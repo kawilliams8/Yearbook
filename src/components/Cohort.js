@@ -9,14 +9,14 @@ const Cohort = (props) => {
       if (props.position === 'staff') {
         photo = person.photo;
       } else {
-        photo = `https://picsum.photos/id/${person.id}/200/300`;
+        photo = `https://picsum.photos/id/${1}/200/300`;
       }
-      return <Person key={person.id} name={person.name} quote={person.quote} superlative={person.superlative} photo={photo}/>
+      return <Person key={person.id} id={person.id} name={person.name} quote={person.quote} superlative={person.superlative} photo={photo} removeStudent={props.removeStudent}/>
     })
 
       return (
         <div className="Cohort">
-        {cohortCards}
+          {cohortCards}
         </div>
       )
 }
