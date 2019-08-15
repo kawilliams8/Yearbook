@@ -14,10 +14,10 @@ const Person = ({position, name, photo, quote, superlative, id, removeStudent}) 
   } else {
     return (
       <div className="Person">
-        <h3 className="name">{name.toUpperCase()}</h3>
+        <h3 className="name" contentEditable={true} >{name.toUpperCase()}</h3>
         <img src={photo} className="photo" alt={name}></img>
-        <h4 className="quote">"{quote}"</h4>
-        <h5 className="superlative">{superlative}</h5>
+        <h4 className="quote" contentEditable={true} >"{quote}"</h4>
+        <h5 className="superlative" contentEditable={true} >{superlative}</h5>
         <button className="deleteButton" onClick={() => removeStudent(id)}>DELETE</button>
       </div>
     )
