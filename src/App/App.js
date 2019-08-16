@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Cohort from './Cohort';
-import AddPerson from './AddPerson';
+import Cohort from '../Cohort/Cohort';
+import AddPerson from '../AddPerson/AddPerson';
 import people from '../data/yearbook-data.js';
 import './App.css';
 
