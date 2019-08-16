@@ -1,0 +1,314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match the snapshot with all data passed in correctly 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <h1>
+      Turing Yearbook
+    </h1>
+  </header>
+  <main>
+    <h2>
+      Turing Staff
+    </h2>
+    <Cohort
+      people={
+        Array [
+          Object {
+            "id": 1,
+            "name": "Eric",
+            "photo": "./eric.jpg",
+            "quote": "You miss all the shots you don't take.",
+            "superlative": "Most Likely to Win the PGA",
+          },
+          Object {
+            "id": 2,
+            "name": "Amy",
+            "photo": "./amy.jpg",
+            "quote": "I believe in you, cuties!",
+            "superlative": "Most Likely to Be an Actual Superhero",
+          },
+          Object {
+            "id": 3,
+            "name": "Khalid",
+            "photo": "./khalid.png",
+            "quote": "Don't put the world on your shoulders.",
+            "superlative": "Most Likely to Save the Planet from Alien Invasion",
+          },
+          Object {
+            "id": 4,
+            "name": "Travis",
+            "photo": "./travis.jpg",
+            "quote": "You do you.",
+            "superlative": "Most Likely to Win a Grammy",
+          },
+          Object {
+            "id": 5,
+            "name": "Leta",
+            "photo": "./leta.jpg",
+            "quote": "It's okay to be kind of a mess.",
+            "superlative": "Most Likely to Go to the Moon",
+          },
+          Object {
+            "id": 6,
+            "name": "Christie",
+            "photo": "./christie.jpg",
+            "quote": "Every journey begins with a single step. So take the damn step!",
+            "superlative": "Most Likely to Be President",
+          },
+          Object {
+            "id": 7,
+            "name": "Brittany",
+            "photo": "./brittany.jpg",
+            "quote": "It was Robbie.",
+            "superlative": "Most Likely to Get Away with Murder",
+          },
+          Object {
+            "id": 8,
+            "name": "Robbie",
+            "photo": "./robbie.jpg",
+            "quote": "Cool.",
+            "superlative": "Most Likely to Be Accused of Murder",
+          },
+          Object {
+            "id": 9,
+            "name": "Will",
+            "photo": "./will.jpg",
+            "quote": "Stop worrying and just do the thing.",
+            "superlative": "Most Likely to Invent Cold Fusion",
+          },
+          Object {
+            "id": 10,
+            "name": "Pam",
+            "photo": "./pam.jpg",
+            "quote": "Shit!",
+            "superlative": "Most Likely to Win a Gold Medal",
+          },
+          Object {
+            "id": 11,
+            "name": "David",
+            "photo": "./david.JPG",
+            "quote": "I love git.",
+            "superlative": "Most Likely to Be Eaten by a Shark",
+          },
+          Object {
+            "id": 12,
+            "name": "Louisa",
+            "photo": "./louisa.jpg",
+            "quote": "YOLO",
+            "superlative": "Most Likely to Win a Knife Fight",
+          },
+          Object {
+            "id": 13,
+            "name": "Jeff",
+            "photo": "https://i.ytimg.com/vi/DhqzMc_LXgQ/maxresdefault.jpg",
+            "quote": "::thoughtful nonsense::",
+            "superlative": "Most Likely to Tell a Dad Joke",
+          },
+        ]
+      }
+      position="staff"
+    />
+    <h2>
+      Turing Students
+    </h2>
+    <AddPerson
+      addStudent={[Function]}
+    />
+    <Cohort
+      people={
+        Array [
+          Object {
+            "id": 21,
+            "name": "Abigail",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "Everything matters, but nothing matters that much.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 22,
+            "name": "Brian",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "Try to not compliment people on things they don't control.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 23,
+            "name": "Charlotte",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "If you are feeling down, try holding a pencil between your top lip and your nose.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 24,
+            "name": "Danesh",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "If your hair is thinning, try dying your hair a similar tone to your scalp.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 25,
+            "name": "Evelyn",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "It is easy to sit up and take notice, what's difficult is getting up and taking action.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 26,
+            "name": "Fatima",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "If you are feeling down, try holding a pencil between your top lip and your nose.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 27,
+            "name": "Glen",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "Don't give to others advice which you wouldn't follow.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 28,
+            "name": "Harriet",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "Today, do not use the words ‘Kind of,’ ‘Sort of’ or ‘Maybe.’ It either is or it isn’t.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 29,
+            "name": "Isabella",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "The higher up you are in a company, the more likely your boss is a psychopath.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 210,
+            "name": "Jorge",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "When something goes wrong in life, just shout \\"plot twist!\\" and carry on.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 211,
+            "name": "Kelly",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "A long walk alone with some time to think, can work wonders.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 212,
+            "name": "Lucia",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "The best thing about being an adult is being able to buy as much LEGO as you want.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 213,
+            "name": "Mei",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "You will always regret the round of Jägermeister.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 214,
+            "name": "Nina",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "A long walk alone with some time to think, can work wonders.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 215,
+            "name": "Ophus",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "Enjoy a little nonsense now and then.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 216,
+            "name": "Parker",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "One of the top regrets people have is that they didn't have the courage to be themself",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 217,
+            "name": "Quin",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "No \\"brand\\" is your friend.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 218,
+            "name": "Rosa",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "Accept advice.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 219,
+            "name": "Sam",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "Avoid mixing Ginger Nuts with other biscuits, they contaminate. Keep separated.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 220,
+            "name": "Tyrese",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "Life can be a lot more interesting inside your head.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 221,
+            "name": "Ursula",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "You spend half your life asleep or in bed. ",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 222,
+            "name": "Vic",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "Brush your teeth the moment you get up.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 223,
+            "name": "Whitney",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "True happiness always resides in the quest.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 224,
+            "name": "Xavier",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "Don't judge a book by its cover, unless it has a synopsis on the back.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 225,
+            "name": "Yolanda",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "Don't give a speech.Put on a show.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+          Object {
+            "id": 226,
+            "name": "Zach",
+            "photo": "https://placekitten.com/200/300",
+            "quote": "Try to do the things that you're incapable of.",
+            "superlative": "Most Likely to Write JavaScript",
+          },
+        ]
+      }
+      position="students"
+      removeStudent={[Function]}
+    />
+  </main>
+</div>
+`;

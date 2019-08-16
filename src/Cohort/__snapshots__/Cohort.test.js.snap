@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cohort should match the snapshot with all data passed in correctly 1`] = `
+<div
+  className="Cohort"
+>
+  <Person
+    id={21}
+    key="21"
+    name="Abigail"
+    photo="https://picsum.photos/id/21/200/300"
+    position="students"
+    quote="Howdy."
+    removeStudent={[MockFunction]}
+    superlative="Most Likely to"
+  />
+  <Person
+    id={22}
+    key="22"
+    name="Brian"
+    photo="https://picsum.photos/id/22/200/300"
+    position="students"
+    quote="Hello."
+    removeStudent={[MockFunction]}
+    superlative="Most Likely to"
+  />
+  <Person
+    id={23}
+    key="23"
+    name="Charlotte"
+    photo="https://picsum.photos/id/23/200/300"
+    position="students"
+    quote="Hey."
+    removeStudent={[MockFunction]}
+    superlative="Most Likely to"
+  />
+</div>
+`;

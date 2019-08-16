@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Person should match the snapshot with all staff data passed in correctly 1`] = `
+<div
+  className="Person"
+>
+  <h3
+    className="name"
+  >
+    ERIC
+  </h3>
+  <img
+    alt="Eric"
+    className="photo"
+    src="./eric.jpg"
+  />
+  <h4
+    className="quote"
+  >
+    "
+    You miss all the shots you don't take.
+    "
+  </h4>
+  <h5
+    className="superlative"
+  >
+    Most Likely to Win the PGA
+  </h5>
+</div>
+`;
+
+exports[`Person should match the snapshot with all student data passed in correctly 1`] = `
+<div
+  className="Person"
+>
+  <h3
+    className="name"
+    contentEditable={true}
+    suppressContentEditableWarning="true"
+  >
+    ROSA
+  </h3>
+  <img
+    alt="Rosa"
+    className="photo"
+    src="https://picsum.photos/id/218/200/300"
+  />
+  <h4
+    className="quote"
+    contentEditable={true}
+    suppressContentEditableWarning="true"
+  >
+    "
+    Accept advice.
+    "
+  </h4>
+  <h5
+    className="superlative"
+    contentEditable={true}
+    suppressContentEditableWarning="true"
+  >
+    Most Likely to Write JavaScript
+  </h5>
+  <button
+    className="deleteButton"
+    onClick={[Function]}
+  >
+    DELETE
+  </button>
+</div>
+`;
