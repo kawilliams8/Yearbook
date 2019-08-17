@@ -37,6 +37,7 @@ exports[`Add Person should match the snapshot with all data passed in correctly 
   />
   <br />
   <button
+    className="AddPerson-button"
     onClick={[Function]}
   >
     Submit

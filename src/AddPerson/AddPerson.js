@@ -24,11 +24,11 @@ class AddPerson extends Component {
       ...this.state
     }
     this.props.addStudent(newStudent);
-    this.setState({
-      name: "",
-      quote: "",
-      superlative: ""
-    })
+    this.clearForm();
+  }
+
+  clearForm = () => {
+    this.setState({ name: '', quote: '', superlative: '' });
   }
   
   render() {
@@ -41,7 +41,7 @@ class AddPerson extends Component {
         <br/>
         <input type="text" name="superlative" className="superlativeInput" placeholder="Superlative" value={this.state.superlative} onChange={this.handleChange}/>
         <br/>
-        <button onClick={this.handleSubmit}>Submit</button>
+        <button className="AddPerson-button" onClick={this.handleSubmit}>Submit</button>
       </form>
     )
   }
