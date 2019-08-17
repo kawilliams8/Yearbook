@@ -43,7 +43,7 @@ exports[`Person should match the snapshot with all student data passed in correc
   <img
     alt="Rosa"
     className="photo"
-    src="https://picsum.photos/id/218/200/300"
+    src="https://placekitten.com/200/300"
   />
   <h4
     className="quote"
