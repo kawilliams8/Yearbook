@@ -8,4 +8,4 @@ This application was built with `create-react-app`.
 * Katherine Williams ([kawilliams8](https://github.com/kawilliams8))
 
 ## Teacher View
-![Teachers](https://github.com/kawilliams8/Yearbook/blob/master/teachers.png)
+![Teachers](https://github.com/kawilliams8/Yearbook/blob/master/src/images/teachers.png)
