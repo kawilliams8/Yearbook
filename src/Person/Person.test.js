@@ -4,7 +4,7 @@ import Person from './Person';
 
 describe('Person', () => {
 
-  let person1, person2, mockRemoveStudent, wrapper1, wrapper2;
+  let person1, person2, mockEvent, mockRemoveStudent, wrapper1, wrapper2;
 
   beforeEach(() => {
     person1 = {
@@ -22,6 +22,7 @@ describe('Person', () => {
       photo: 'https://placekitten.com/200/300',
       position: 'students'
     }
+    mockEvent = { target: { id: 100 } };
     mockRemoveStudent = jest.fn();
     wrapper1 = shallow(<Person
       id = { person1.id }
@@ -39,7 +40,7 @@ describe('Person', () => {
       quote={person2.quote}
       superlative={person2.superlative}
       photo={person2.photo}
-      removeStudent={jest.fn()}
+      removeStudent={ mockRemoveStudent }
       position={ "students" } />);
   });
 
@@ -53,7 +54,7 @@ describe('Person', () => {
   });
 
   it('should remove a student on button click', () => {
-    wrapper2.find('.RemovePerson-button').simulate('click', { preventDefault: () => { } });
-    expect(mockRemoveStudent).toBeCalled();
+    wrapper2.find('.RemovePerson-button').simulate('click', mockEvent);
+    expect(mockRemoveStudent).toBeCalledWith(218);
   });
 });
