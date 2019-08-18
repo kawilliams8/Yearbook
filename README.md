@@ -9,3 +9,12 @@ This application was built with `create-react-app`.
 
 ## Teacher View
 ![Teachers](https://github.com/kawilliams8/Yearbook/blob/master/src/images/teachers.png)
+
+## Add Student Form View
+![Add Student](https://github.com/kawilliams8/Yearbook/blob/master/src/images/Form.png)
+
+## Delete Student View
+![Delete Student](https://github.com/kawilliams8/Yearbook/blob/master/src/images/Delete.png)
+
+## Test Coverage Report
+![Coverage](https://github.com/kawilliams8/Yearbook/blob/master/src/images/TestCoverage.png)
