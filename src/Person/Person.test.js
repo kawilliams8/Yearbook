@@ -41,15 +41,19 @@ describe('Person', () => {
       photo={person2.photo}
       removeStudent={jest.fn()}
       position={ "students" } />);
-  })
+  });
 
   it('should match the snapshot with all staff data passed in correctly', () => {
     expect(wrapper1).toMatchSnapshot();
   });
 
   it('should match the snapshot with all student data passed in correctly', () => {
-
     person2.photo = `https://picsum.photos/id/${person2.id}/200/300`;
     expect(wrapper2).toMatchSnapshot();
+  });
+
+  it('should remove a student on button click', () => {
+    wrapper2.find('.RemovePerson-button').simulate('click', { preventDefault: () => { } });
+    expect(mockRemoveStudent).toBeCalled();
   });
 });

@@ -33,5 +33,6 @@ describe('Add Person', () => {
     const expected = { name: '', quote: '', superlative: ''};
     wrapper.instance().clearForm();
     expect(wrapper.state()).toEqual(expected);
-  })
+  });
+
 });

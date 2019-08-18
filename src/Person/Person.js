@@ -18,7 +18,7 @@ const Person = ({position, name, photo, quote, superlative, id, removeStudent}) 
         <img src={photo} className="photo" alt={name}></img>
         <h4 className="quote" contentEditable={true} suppressContentEditableWarning="true">"{quote}"</h4>
         <h5 className="superlative" contentEditable={true} suppressContentEditableWarning="true">{superlative}</h5>
-        <button className="deleteButton" onClick={() => removeStudent(id)}>DELETE</button>
+        <button className="RemovePerson-button" onClick={() => removeStudent(id)}>DELETE</button>
       </div>
     )
 }
